@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Nathaniel Ryan Mathew <nathanielmat2@gmail.com>",
   "dependencies": {
+    "aos": "^2.3.4",
+    "classnames": "^2.2.6",
     "gatsby": "^2.17.4",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-manifest": "^2.2.23",
@@ -16,7 +18,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "scrollmonitor-react": "^2.4.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

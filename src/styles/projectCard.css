@@ -1,9 +1,13 @@
 .project-card-content{
     margin: 50px auto;
-    width: 40%;
+    width: 20rem;
     padding: 10px;
     border-radius: 15px;
-    background-image: linear-gradient(#FF3366,#da5878);
+    background: #FF3366;
+    transition: 0.6s;
+}
+.project-card-content:hover{
+    background: #20A4F3;
 }
 .project-name{
     margin-top: 10px;
