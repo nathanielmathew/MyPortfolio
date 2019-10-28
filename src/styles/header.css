@@ -1,0 +1,18 @@
+.header{
+    background-color: #011627;
+    margin-bottom: 1.45rem;
+}
+.header-div{
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+}
+.header-content{
+    margin: 0px;
+}
+.header-content a{
+    @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: #FF3366;
+    text-decoration: none;
+}

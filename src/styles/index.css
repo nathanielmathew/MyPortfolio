@@ -1,0 +1,27 @@
+.intro{
+    margin: 200px auto;
+}
+.intro p{
+    font-size: 1.5em;
+}
+.about{
+    margin: 200px auto;
+}
+.about p{
+    font-size: 1.5em;
+}
+.project-card-container{
+    margin: auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projects{
+    margin: 200px auto;
+}
+.projects h1{
+    margin:100px auto;
+}

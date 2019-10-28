@@ -1,0 +1,18 @@
+.project-card-content{
+    margin: 50px auto;
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(#FF3366,#da5878);
+}
+.project-name{
+    margin-top: 10px;
+    color:#F6F7F8;
+    text-align: center;
+}
+.project-info{
+    margin: 20px auto;
+    max-width: 80%;
+    text-align: center;
+    color: #F6F7F8;
+}
