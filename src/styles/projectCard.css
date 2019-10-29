@@ -4,7 +4,7 @@
     padding: 10px;
     border-radius: 15px;
     background: #FF3366;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 .project-card-content:hover{
     background: #20A4F3;
