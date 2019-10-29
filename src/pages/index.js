@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../styles/index.css'
-import ProjectCard from '../components/projectCard.js'
 
 const IndexPage = () => (
   <Layout>
@@ -18,21 +17,14 @@ const IndexPage = () => (
     </div>
       <div className="about">
         <h1>About Me</h1>
-        <p>I'm an Engineering Undergrad at Sahyadri College of Engineering and Management, Mangalore</p>
+        <p>I'm an Engineering Undergrad at Sahyadri College of Engineering and Management, Mangalore, with an active interest for Graphic Design, UI/UX Design and Full Stack Web Development.<br /> i'm also a music + art enthusiast and guitarist by hobby</p>
       </div>
-      
-      <div className="projects">
-        <h1>My Projects</h1>
-        <p>here are  a few of the projects that I've been working on</p>
-        <div className="project-card-container">
-          <ProjectCard pname="Portfolio WebPage"/>
-          <ProjectCard pname="Bulk Mailer"/>
-          <ProjectCard pname="Weather API page"/>
-          <ProjectCard pname="Mozilla Sahyadri Website"/>
-        </div>
+      <div className="contact">
+        <h1>Wanna get in touch?</h1>
+        <p>I would love for you to get in touch with me for exciting opportunities:</p>
+        <p>Drop an e-mail at <a>nathanielmat2@gmail.com</a></p>
+        <p>Or give me a call/text at <a>+91 8088734430</a></p>
       </div>
-
-      <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
