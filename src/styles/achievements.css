@@ -1,0 +1,16 @@
+.achievements{
+    margin: 150px auto;
+    animation: 
+        fadein 2s;
+}
+.achievements p{
+    font-size: 1.3em;
+    line-height: 40px;
+}
+.achievements h2{
+    margin-top: 200px;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
