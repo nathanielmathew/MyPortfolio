@@ -1,6 +1,11 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 .header{
     background-color: #011627;
     margin-bottom: 1.45rem;
+    animation: fadein 0.5s;
 }
 .header-div{
     margin: 0 auto;
