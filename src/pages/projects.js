@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import '../styles/projects.css'
 import ProjectCard from '../components/projectCard.js'
 
 const Achievements = () => (
