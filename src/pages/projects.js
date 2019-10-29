@@ -11,7 +11,6 @@ const Achievements = () => (
     <SEO title="Projects" />
     <div className="projects" name="projects">
         <h1>My Projects</h1>
-        <p>here are  a few of the projects that I've been working on</p>
         <div className="project-card-container">
           <ProjectCard pname="Portfolio WebPage" pinfo="A webpage to display my Information, Achievement and Projects" plink="/"/>
           <ProjectCard pname="Bulk Mailer" pinfo="A web application to send mass E-mails and mass SMS's on a large scale" plink="https://github.com/sih-sosc"/>
