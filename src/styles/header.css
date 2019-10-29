@@ -14,10 +14,29 @@
 }
 .header-content{
     margin: 0px;
+    display: flex;
+    justify-content: space-between;
 }
-.header-content a{
+.title{
     @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
     font-family: 'Liu Jian Mao Cao', cursive;
     color: #FF3366;
+    transition: 0.5s
+}
+.title:hover{
+    color: #20A4F3; 
+}
+.links{
+    margin: auto 0px;
+}
+.links a{
+    padding: 10px;
+    font-size: 0.6em;
     text-decoration: none;
+    color: #F6F7F8; 
+    animation: fadein 3s;
+    transition: 0.25s;
+}
+.links a:hover{
+    color: #2EC4B6;
 }
