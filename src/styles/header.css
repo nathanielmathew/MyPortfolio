@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -18,8 +19,9 @@
     justify-content: space-between;
 }
 .title{
-    @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+    margin: auto 0px;
     font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: normal;
     color: #FF3366;
     transition: 0.3s
 }
