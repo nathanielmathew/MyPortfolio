@@ -21,7 +21,7 @@
     @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
     font-family: 'Liu Jian Mao Cao', cursive;
     color: #FF3366;
-    transition: 0.5s
+    transition: 0.3s
 }
 .title:hover{
     color: #20A4F3; 
