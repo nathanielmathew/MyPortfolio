@@ -2,28 +2,50 @@
     display: flex;
     flex-wrap: wrap;
 }
+.intro-container, .about-container, .contact-container{
+    padding: 50px 0px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.intro-container>div, .about-container>div, .contact-container>div{
+    padding: 15px 0px;
+}
 .intro{
-    margin: 200px auto;
-    animation: 
-        fadein 2s;
+    width: 50%;
+    margin: auto;
+    animation: fadein 2s;
 }
 .intro p{
     font-size: 1.5em;
     line-height: 40px;
 }
 .avatar{
+    margin: auto;
     animation: fadein 4s;
+    min-width: 400px;
+    min-height: 400px;
+    width: 50%;
+    height: 50%;
 }
 .about{
-    margin: 200px auto;
+    width: 50%;
+    margin: auto;
     animation: fadein 2s;
 }
 .about p{
     font-size: 1.5em;
     line-height: 40px;
 }
+.about-img{
+    margin: auto;
+    animation: fadein 4s;
+    width: 240px;
+}
 .contact{
-    margin: 200px auto;
+    width: 50%;
+    margin: auto;
     animation: 
         fadein 2s;
 }
@@ -31,7 +53,27 @@
     font-size: 1.5em;
     line-height: 40px;
 }
+.contact-img{
+    margin:auto;
+    animation: fadein 4s;
+    min-width: 300px;
+}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media all and (orientation: portrait) {
+    .intro, .about,
+    .contact{
+        width: 100%;
+    }
+}
+@media (device-width: 100vw) {
+    .about{
+        width: 70%;
+    }
+    .contact{
+        width: 60%;
+    }
 }
