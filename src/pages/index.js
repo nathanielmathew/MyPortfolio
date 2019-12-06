@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from 'gatsby'
 import '../styles/index.css'
-import 'C:\\Users\\Nathaniel\\Pictures\\nat-png2.png'
 const IndexPage = props => (
   <Layout>
     <SEO title="Home" />
