@@ -68,8 +68,11 @@
     .contact{
         width: 100%;
     }
+    .intro-container, .about-container, .contact-container{
+        text-align: justify;
+    }
 }
-@media (device-width: 100vw) {
+@media (device-width: 100vw) and (orientation: landscape) {
     .about{
         width: 70%;
     }
