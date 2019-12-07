@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    animation: fadein 2s;
 }
 .intro-container>div, .about-container>div, .contact-container>div{
     padding: 15px 0px;
@@ -15,7 +16,6 @@
 .intro{
     width: 50%;
     margin: auto;
-    animation: fadein 2s;
 }
 .intro p{
     font-size: 1.5em;
@@ -23,7 +23,7 @@
 }
 .avatar{
     margin: auto;
-    animation: fadein 4s;
+    animation: fadein 2s;
     min-width: 400px;
     min-height: 400px;
     width: 50%;
@@ -32,7 +32,6 @@
 .about{
     width: 50%;
     margin: auto;
-    animation: fadein 2s;
 }
 .about p{
     font-size: 1.5em;
@@ -40,14 +39,11 @@
 }
 .about-img{
     margin: auto;
-    animation: fadein 4s;
     width: 240px;
 }
 .contact{
     width: 50%;
     margin: auto;
-    animation: 
-        fadein 2s;
 }
 .contact p{
     font-size: 1.5em;
@@ -55,7 +51,6 @@
 }
 .contact-img{
     margin:auto;
-    animation: fadein 4s;
     min-width: 300px;
 }
 @keyframes fadein {
