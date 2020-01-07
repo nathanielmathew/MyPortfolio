@@ -1,16 +1,46 @@
 .achievements{
-    margin: 150px auto;
+    margin: auto;
     animation: 
         fadein 2s;
+}
+.achievement-title-container{
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    animation: fadein 2s;
+}
+.subtitle{
+    margin: auto 0;
+}
+.achievement-img{
+    margin: auto 0;
+    animation: fadein 2s;
+    min-width: 300px;
+}
+.achievement-card{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.achievements h2{
+    margin-top: auto;
 }
 .achievements p{
     font-size: 1.3em;
     line-height: 40px;
 }
-.achievements h2{
-    margin-top: 200px;
-}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media all and (orientation: portrait) {
+    .achievement-title-container{
+        justify-content: space-around;
+    }
 }
