@@ -1,53 +1,41 @@
+h1{
+    font-size: 3em;
+    line-height: 1.05em;
+}
 .main-container{
     display: flex;
     flex-wrap: wrap;
 }
 .intro-container, .about-container, .contact-container{
+    width: 100%;
     padding: 50px 0px;
     margin-top: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
     animation: fadein 2s;
 }
 .intro-container>div, .about-container>div, .contact-container>div{
     padding: 15px 0px;
 }
-.intro{
+.intro,.about,.contact{
     width: 50%;
-    margin: auto;
+    margin: auto ;
 }
-.intro p{
+.intro p,.about p,.contact p{
     font-size: 1.5em;
-    line-height: 40px;
+    line-height: 1.375em;
 }
 .avatar{
     margin: auto;
     animation: fadein 2s;
     min-width: 400px;
     min-height: 400px;
-    width: 50%;
-    height: 50%;
-}
-.about{
-    width: 50%;
-    margin: auto;
-}
-.about p{
-    font-size: 1.5em;
-    line-height: 40px;
 }
 .about-img{
     margin: auto;
     width: 240px;
-}
-.contact{
-    width: 50%;
-    margin: auto;
-}
-.contact p{
-    font-size: 1.5em;
-    line-height: 40px;
 }
 .contact-img{
     margin:auto;
@@ -59,12 +47,21 @@
 }
 
 @media all and (orientation: portrait) {
+    h1{
+        font-size: 2em;
+        line-height: 1.25em;
+    }
+    .intro p,.about p{
+        font-size: 1.25em;
+        line-height: 1.25em;
+    }
     .intro, .about,
     .contact{
-        width: 100%;
+        width: 90%;
     }
     .intro-container, .about-container, .contact-container{
         text-align: justify;
+        justify-content: space-around;
     }
 }
 @media (device-width: 100vw) and (orientation: landscape) {
