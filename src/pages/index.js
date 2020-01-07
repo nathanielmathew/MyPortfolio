@@ -22,7 +22,7 @@ const IndexPage = props => (
     <div className="about-container">
       <div className="about">
         <h1>About Me</h1>
-        <p>I'm an Engineering Student from Mangalore, with a passion for <b>Front-End Web Development</b>, <b>UI/UX Design</b> and <b>Graphic Design</b>.<br />
+        <p>I'm an Engineering Student Developer from Mangalore, with a passion for <b>Front-End Web Development</b>, <b>UI/UX Design</b> and <b>Graphic Design</b>.<br />
         I'm also a Music &amp; Art enthusiast and a Guitarist by hobby</p>
       </div>
       <div className="about-img">
