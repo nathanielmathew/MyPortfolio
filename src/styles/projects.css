@@ -1,6 +1,24 @@
 .projects{
-    margin: 150px auto;
+    margin: auto;
     animation: fadein 2s;
+}
+.projects-title-container{
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    animation: fadein 2s;
+}
+.subtitle{
+    margin: auto 0;
+}
+.project-img{
+    margin: auto 0;
+    animation: fadein 2s;
+    min-width: 300px;
 }
 .projects p{
     font-size: 1.3em;
@@ -8,9 +26,14 @@
 }
 .project-card-container{
     margin: auto;
-    margin-top: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media all and (orientation: portrait) {
+    .projects-title-container{
+        justify-content: space-around;
+    }
 }
