@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import '../styles/projectCard.css'
 const projectCard=(props)=>(
     <div className="project-card-content">
