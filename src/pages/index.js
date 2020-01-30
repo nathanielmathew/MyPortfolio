@@ -35,8 +35,8 @@ const IndexPage = props => (
         <h1>Get in Touch!</h1>
         <p>Be sure to contact me for exciting Collaboration opportunities and more information:</p>
         <p>
-        Drop me an e-mail at<br /> <a><b>nathanielmat2@gmail.com</b></a><br />
-        Or give me a call/text at<br /> <a><b>+91 8088734430</b></a>
+        Drop me an e-mail at<br /> <a href="mailto:nathanielmat2@gmail.com"><b>nathanielmat2@gmail.com</b></a><br />
+        Or give me a call/text at<br /> <a href="tel:+91 8088734430"><b>+91 8088734430</b></a>
         </p>
       </div>
       <div className="contact-img">
