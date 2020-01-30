@@ -8,19 +8,18 @@ h1{
 }
 .intro-container, .about-container, .contact-container{
     width: 100%;
-    padding: 50px 0px;
-    margin-top: auto;
+    padding: 50px 20px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    justify-content: space-between;
     animation: fadein 2s;
 }
 .intro-container>div, .about-container>div, .contact-container>div{
     padding: 15px 0px;
 }
 .intro,.about,.contact{
-    width: 50%;
+    width: 50%!important;
     margin: auto ;
 }
 .intro p,.about p,.contact p{
@@ -35,11 +34,13 @@ h1{
 }
 .about-img{
     margin: auto;
-    width: 240px;
+    min-width: 400px;
+    min-height: 400px;
 }
 .contact-img{
     margin:auto;
-    min-width: 300px;
+    min-width: 400px;
+    min-height: 400px;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -51,17 +52,17 @@ h1{
         font-size: 2em;
         line-height: 1.25em;
     }
-    .intro p,.about p{
+    .intro p,.about p, .contact p{
         font-size: 1.25em;
         line-height: 1.25em;
     }
     .intro, .about,
     .contact{
-        width: 90%;
+        width: 80%!important;
     }
     .intro-container, .about-container, .contact-container{
         text-align: justify;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 @media (device-width: 100vw) and (orientation: landscape) {

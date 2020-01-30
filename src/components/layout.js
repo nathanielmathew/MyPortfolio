@@ -8,8 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
+import Footer from "./footer"
 import "../styles/layout.css"
 
 const Layout = ({ children }) => {
@@ -28,11 +28,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="content-container">
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, 
-          {` `}
-          <a href="https://github.com/nathanielmathew">Nathaniel Ryan M</a>
-        </footer>
+        <Footer />        
       </div>
     </>
   )

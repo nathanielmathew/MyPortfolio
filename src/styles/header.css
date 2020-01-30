@@ -4,22 +4,21 @@
     to   { opacity: 1; }
 }
 .header{
-    background-color: #011627;
-    margin-bottom: 1.45rem;
-    animation: fadein 0.5s;
+    background-color: #04131f;
+    padding-bottom: 1.45rem;
+    animation: fadein 2s;
 }
 .header-div{
-    margin: 0 auto;
-    max-width: 960px;
+    margin: auto;
     padding: 1.45rem 1.0875rem;
 }
 .header-content{
-    margin: 0px;
+    margin: auto;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
 .title{
-    margin: auto 0px;
     font-family: 'Liu Jian Mao Cao', cursive;
     font-weight: normal;
     color: #FF3366;

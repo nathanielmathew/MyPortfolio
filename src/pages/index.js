@@ -7,7 +7,7 @@ import '../styles/index.css'
 const IndexPage = props => (
   <Layout>
     <SEO title="Home" />
-    <div className="intro-container">
+    <div className="intro-container dark">
       
       <div className="intro">
         <h1>Hello there!</h1>
@@ -30,7 +30,7 @@ const IndexPage = props => (
       />
       </div>
     </div>
-    <div className="contact-container">
+    <div className="contact-container dark">
       <div className="contact">
         <h1>Get in Touch!</h1>
         <p>Be sure to contact me for exciting Collaboration opportunities and more information:</p>
