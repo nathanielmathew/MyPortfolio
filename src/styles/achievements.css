@@ -1,12 +1,13 @@
 .achievements{
+    width: 100%;
     margin: auto;
     animation: 
         fadein 2s;
 }
 .achievement-title-container{
-    width: 100%;
-    padding: 50px 0px;
-    margin-top: auto;
+    width: 90%;
+    padding: 50px 20px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -22,9 +23,9 @@
     min-width: 300px;
 }
 .achievement-card{
+    width: 90%;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    padding: 40px 0px;
 }
 .achievements h2{
     margin-top: auto;
@@ -32,6 +33,7 @@
 .achievements p{
     font-size: 1.3em;
     line-height: 40px;
+    margin-bottom: auto!important;
 }
 
 @keyframes fadein {

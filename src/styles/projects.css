@@ -3,9 +3,9 @@
     animation: fadein 2s;
 }
 .projects-title-container{
-    width: 100%;
+    width: 90%;
     padding: 50px 0px;
-    margin-top: auto;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;

@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,7 +8,7 @@ import ProjectCard from '../components/projectCard.js'
 const Achievements = props => (
   <Layout>
     <SEO title="Projects" />
-    <div className="projects" name="projects">
+    <div className="projects dark" name="projects">
       <div className="projects-title-container">
         <div className="subtitle">
         <h1>My Projects</h1>
@@ -27,7 +26,6 @@ const Achievements = props => (
           <ProjectCard pname="Mozilla Sahyadri Website" pinfo="A website for the official Mozilla Campus Club of Sahyadri" plink="https://mozilla-sahyadri.netlify.com/"/>
         </div>
     </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 export const firstSiteImages = graphql`
