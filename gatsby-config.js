@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nathaniel Ryan Mathew`,
-    description: `A Portfolio built using Gatsby`,
+    description: `Personal Portfolio Web-page of Nathaniel Ryan Mathew, an Engineering Student Developer from Mangalore, with a passion for Front-End Web Development, UI/UX Design and Graphic Design; A Music & Art enthusiast, and a Guitarist by hobby`,
     author: `@nathanielmathew`,
   },
   plugins: [
