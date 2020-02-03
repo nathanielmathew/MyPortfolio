@@ -2,10 +2,22 @@
     text-align: center;
 }
 .footer-link-container{
-    padding: 40px 0px;
+    padding: 25px 0px;
     width:100%;
     display: flex;
     flex-direction: row;
+}
+.footer-title{
+    font-size: 1.5em;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: normal;
+    color: #FF3366;
+    transition: 0.3s;
+    margin-left: 6.66%;
+}
+.footer-title:hover,.footer-links a:hover{
+    transition: 0.2s;
+    color: #20A4F3; 
 }
 .footer-links{
     padding: 10px;
@@ -13,11 +25,9 @@
     flex-direction: column;
     margin: auto;
     margin-top: 0;
-
 }   
-
 .footer-links a{
     text-align: left;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 1.00em;
 }
