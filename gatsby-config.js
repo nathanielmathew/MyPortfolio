@@ -13,7 +13,6 @@ module.exports = {
         name: `images`,
       },
     },
-    `gatsby-plugin-google-analytics`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
