@@ -15,8 +15,8 @@ const Header = ({ siteTitle }) => (
     <div className="footer-links">
     <a href="https://github.com/nathanielmathew">GitHub</a>
     <a href="https://dribbble.com/nathanielmathew">Dribbble</a>
-    <a href="https://github.com/nathanielmathew">Instagram</a>
-    <a href="https://github.com/nathanielmathew">Facebook</a>
+    <a href="https://instagram.com/nathanxmathew">Instagram</a>
+    <a href="https://www.facebook.com/nathanielryanmathew">Facebook</a>
     </div>
 
     <div className="footer-links">
