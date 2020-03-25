@@ -15,6 +15,33 @@ h1{
     flex-wrap: wrap-reverse;
     animation: fadein 2s;
 }
+.frame{
+
+}
+.interests-container{
+    padding: 130px 20px;
+    text-align: center;
+    margin: auto;
+}
+.interests-container>h1{
+    font-size: 2.5em;
+}
+.interests{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.interest-card{
+    font-weight: 700;
+    margin: auto;   
+}
+.interest-card>p{
+    margin-top: 40px;   
+}
+.icon{
+    margin: auto;
+    max-width: 120px;
+}
 .intro-container>div, .about-container>div, .contact-container>div{
     padding: 15px 0px;
 }
