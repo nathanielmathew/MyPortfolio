@@ -18,11 +18,13 @@
     "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-sharp": "^2.3.16",
+    "jquery": "^3.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
-    "scrollmonitor-react": "^2.4.1"
+    "scrollmonitor-react": "^2.4.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

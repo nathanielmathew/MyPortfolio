@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from 'gatsby'
 import '../styles/index.css'
+import '../styles/slider.css'
 const IndexPage = props => (
   <Layout>
     <SEO title="Home" />
@@ -54,7 +55,21 @@ const IndexPage = props => (
       </div>
     </div>
 
-    <div className="contact-container frame">
+
+
+<div class="organizations-container frame">
+  <h1 align="center" data-sal="fade" data-sal-duration="500">Associated Organizations</h1>
+   <section class="customer-logos slider organizations" data-sal="slide-up" data-sal-duration="1000">
+      <div class="slide"><img src="https://github.com/so-sc/open-design/blob/master/SAHYADRI/SAHYADRI-LOGO-01.png?raw=true" /></div>
+      <div class="slide"><img src="https://raw.githubusercontent.com/so-sc/open-design/master/SOSC/Logos/logo_x_text.png" alt='SOSC'/></div>
+      <div class="slide"><img src="https://raw.githubusercontent.com/so-sc/open-design/master/mozilla/moz-logo-1color-white-rgb.png" /></div>
+      <div class="slide"><img src="https://github.com/so-sc/open-design/blob/master/Microsoft%20Student%20Partners/MSP%20Logos/Light%20Blue/RGB/Stacked/MSP_visual%20ID_RGB_stacked_light%20blue.png?raw=true" /></div>
+      <div class="slide"><img src="https://www.gatsbyjs.org/Gatsby-Monogram.svg" /></div>
+      <div class="slide"><img src="https://scontent.fblr5-1.fna.fbcdn.net/v/t31.0-8/p960x960/22179851_1975353296086314_3872024838083761937_o.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=fCjLYn1DRwgAX9fNpEQ&_nc_ht=scontent.fblr5-1.fna&_nc_tp=6&oh=31f4b242bf5be9678e4cc5c8d44196ed&oe=5EB68684" /></div>
+   </section>
+</div>
+
+    <div className="contact-container frame dark">
       <div className="contact">
         <h1 data-sal="fade" data-sal-duration="500">Get in Touch!</h1>
         <p data-sal="fade" data-sal-duration="1000">Be sure to contact me for exciting Collaboration opportunities and more information:</p>
