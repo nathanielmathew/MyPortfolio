@@ -7,7 +7,7 @@ h1{
     flex-wrap: wrap;
 }
 .intro-container, .about-container, .contact-container{
-    width: 100%;
+    width: auto;
     padding: 50px 20px;
     margin: auto;
     display: flex;
@@ -46,7 +46,7 @@ h1{
     padding: 15px 0px;
 }
 .intro,.about,.contact{
-    width: 50%!important;
+    width: 50%;
     margin: auto ;
 }
 .intro p,.about p,.contact p{
@@ -76,27 +76,46 @@ h1{
 
 @media all and (orientation: portrait) {
     h1{
-        font-size: 2em;
+        font-size: 3em;
         line-height: 1.25em;
+        word-wrap: normal;
+    }
+    .intro,.about,.contact{
+        width: auto;
+        margin: auto ;
     }
     .intro p,.about p, .contact p{
-        font-size: 1.25em;
-        line-height: 1.25em;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        word-wrap: normal;
+    }
+    .contact>p>a{
+        word-wrap: break-word;
     }
     .intro, .about,
     .contact{
-        width: 80%!important;
+        text-align: center;
+        width: auto;
     }
     .intro-container, .about-container, .contact-container{
-        text-align: justify;
         justify-content: space-between;
     }
-}
-@media (device-width: 100vw) and (orientation: landscape) {
-    .about{
-        width: 70%;
+    .avatar{
+        min-width: 90vw;
+        min-height: 90vw;
     }
-    .contact{
-        width: 60%;
+    .about-img, .contact-img{
+        min-width: 50vw;
+        min-height: 50vw;
+        margin-bottom: 7vw;
+    }
+    .interests{
+        padding-top: 10vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .interest-card{
+        margin: 10px 0px;   
     }
 }

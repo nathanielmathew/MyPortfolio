@@ -3,7 +3,7 @@
 }
 .footer-link-container{
     padding: 25px 0px;
-    width:100%;
+    width:auto;
     display: flex;
     flex-direction: row;
 }

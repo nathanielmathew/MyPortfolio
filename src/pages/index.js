@@ -10,8 +10,8 @@ const IndexPage = props => (
     <div className="intro-container frame dark">
       <div className="intro">
         <h1 data-sal="fade" data-sal-duration="500">Hello there!</h1>
-        <p data-sal="fade" data-sal-duration="1000">I'm <strong>Nathaniel Ryan M</strong>,<br />
-        a 3rd Year Computer Science and Engineering Student at Sahyadri College of Engineering &amp; Management</p>
+        <p data-sal="fade" data-sal-duration="1000">I'm <strong>Nathaniel Ryan M</strong>,</p>
+        <p>a 3rd Year Computer Science and Engineering Student at Sahyadri College of Engineering &amp; Management</p>
       </div>
       <div className="avatar" data-sal="slide-up" data-sal-duration="1000">
         <Img fluid={props.data.imageOne.childImageSharp.fluid}
@@ -59,7 +59,7 @@ const IndexPage = props => (
         <h1 data-sal="fade" data-sal-duration="500">Get in Touch!</h1>
         <p data-sal="fade" data-sal-duration="1000">Be sure to contact me for exciting Collaboration opportunities and more information:</p>
         <p data-sal="fade" data-sal-duration="1000">
-        Drop me an e-mail at<br /> <a href="mailto:nathanielmat2@gmail.com"><b>nathanielmat2@gmail.com</b></a><br />
+        Drop me an e-mail at<br /> <a className="nxm" href="mailto:nathanielmat2@gmail.com"><b className="nxm">nathanielmat2@gmail.com</b></a><br />
         Or give me a call/text at<br /> <a href="tel:+91 8088734430"><b>+91 8088734430</b></a>
         </p>
       </div>

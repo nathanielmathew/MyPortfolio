@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <meta name="viewport" content="device-width; user-scalable=0;" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="content-container">
         <main>{children}</main>

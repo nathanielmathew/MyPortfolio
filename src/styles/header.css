@@ -41,3 +41,15 @@
 .links a:hover{
     color: #2EC4B6;
 }
+
+@media all and (orientation: portrait) {
+    .links{
+        position: absolute;
+        visibility: hidden;
+    }
+    .title{
+        font-size: 8vw;
+        line-height: auto;
+    }
+    
+}
