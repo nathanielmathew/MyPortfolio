@@ -18,18 +18,21 @@ h1{
 .frame{
 
 }
-.interests-container{
+.interests-container,.organizations-container{
     padding: 130px 20px;
     text-align: center;
     margin: auto;
 }
-.interests-container>h1{
+.interests-container>h1,.organizations-container>h1{
     font-size: 2.5em;
 }
 .interests{
     margin-top: 100px;
     display: flex;
     flex-direction: row;
+}
+.organizations{
+    margin-top: 100px;
 }
 .interest-card{
     font-weight: 700;
