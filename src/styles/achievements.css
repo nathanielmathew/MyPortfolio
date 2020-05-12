@@ -45,4 +45,7 @@
     .achievement-title-container{
         justify-content: space-around;
     }
+    .achievement-card{
+        text-align: center;
+    }
 }

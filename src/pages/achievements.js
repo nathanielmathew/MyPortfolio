@@ -9,29 +9,29 @@ const Achievements = props => (
     <div className="achievements">
         <div className="achievement-title-container-bg dark">
         <div className="achievement-title-container">
-          <div className="subtitle" data-sal="fade" data-sal-duration="1000">
+          <div className="subtitle" data-sal="slide-up" data-sal-duration="1000">
           <h1>Achievements</h1>
           </div>
-          <div className="achievement-img" data-sal="fade" data-sal-duration="1000">
+          <div className="achievement-img" data-sal="slide-up" data-sal-duration="1000">
             <Img fluid={props.data.diploma.childImageSharp.fluid}
             />
           </div>
         </div>
       </div>
-      <div className="achievement-card-container-bg">
-        <div className="achievement-card" data-sal="fade" data-sal-duration="1000">
+      <div className="achievement-card-container-bg" data-sal="slide-up" data-sal-duration="1000">
+        <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
           <h2>Selected as Microsoft Student Partner</h2>
           <p>Selected by Microsoft as a part of the Microsoft Student Partner (MSP) program which provides those selected with access to exclusive tools, to skill up with Microsoft Learn and other resources. Microsoft Student Partners epitomize Microsoft’s mission to empower every person and organization on the planet to achieve more—they are on-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers.  </p>
         </div>
       </div>
-      <div className="achievement-card-container-bg dark">
-        <div className="achievement-card" data-sal="fade" data-sal-duration="1000">
+      <div className="achievement-card-container-bg dark" data-sal="slide-up" data-sal-duration="1000">
+        <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
         <h2>Grand Finalist at Smart India Hackathon 2019</h2>
         <p>I was selected for the Grand Final of "The world's largest Hackathon", The Smart India Hackathon, held at Lovely professional university, Punjab - in 2019</p>
         </div>
       </div>
-      <div className="achievement-card-container-bg">
-        <div className="achievement-card" data-sal="fade" data-sal-duration="1000">
+      <div className="achievement-card-container-bg" data-sal="fade" data-sal-duration="1000">
+        <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
         <h2>Nitte Start-up Hack 2018 Gold Medalist</h2>
         <p>Winner and Gold Medalist of Nitte Startup Hack 2019, an inter-college contest where students were made to pitch their Entreprenual ideas and their plan</p>
         </div>

@@ -10,10 +10,10 @@ const Achievements = props => (
     <SEO title="Projects" />
     <div className="projects dark" name="projects">
       <div className="projects-title-container">
-        <div className="subtitle" data-sal="fade" data-sal-duration="1000">
+        <div className="subtitle" data-sal="slide-up" data-sal-duration="1000">
         <h1>My Projects</h1>
         </div>
-        <div className="project-img" data-sal="fade" data-sal-duration="1000">
+        <div className="project-img" data-sal="slide-up" data-sal-duration="1000">
           <Img fluid={props.data.project.childImageSharp.fluid}
           />
         </div>
