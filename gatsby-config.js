@@ -30,6 +30,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 1922635,
+        sv: 6
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
