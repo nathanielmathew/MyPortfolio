@@ -114,3 +114,10 @@
   .slick-arrow.slick-hidden {
       display: none;
   }
+
+  .slide>img{
+    transition: 0.3s;
+  }
+  .slide>img:hover{
+    transform: scale(1.1);
+  }
