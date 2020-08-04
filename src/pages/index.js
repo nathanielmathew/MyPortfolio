@@ -13,6 +13,14 @@ const IndexPage = props => (
         <h1 data-sal="fade" data-sal-duration="500">Hello there!</h1>
         <p data-sal="fade" data-sal-duration="1000">I'm <strong>Nathaniel Ryan M</strong>,</p>
         <p>a 3rd Year Computer Science and Engineering Student at Sahyadri College of Engineering &amp; Management</p>
+        <div className="socials-container">
+        <a href="https://github.com/nathanielmathew/" target="_blank"><Img fluid={props.data.github.childImageSharp.fluid} className="socials" alt="github" title="github"/></a>
+        <a href="https://www.linkedin.com/in/nathanielmathew/" target="_blank"><Img fluid={props.data.linkedin.childImageSharp.fluid} className="socials" alt="linkedin" title="linkedin"/></a>
+        <a href="https://www.facebook.com/nathanielryanmathew" target="_blank"><Img fluid={props.data.facebook.childImageSharp.fluid} className="socials" alt="facebook" title="facebook"/></a>
+        <a href="https://www.instagram.com/nathanxmathew/" target="_blank"><Img fluid={props.data.instagram.childImageSharp.fluid} className="socials" alt="instagram" title="instagram"/></a>
+        <a href="https://twitter.com/nathanxmathew" target="_blank"><Img fluid={props.data.twitter.childImageSharp.fluid} className="socials" alt="twitter" title="twitter"/></a>
+        <a href="https://dribbble.com/nathanielmathew" target="_blank"><Img fluid={props.data.dribbble.childImageSharp.fluid} className="socials" alt="dribbble" title="dribbble"/></a>
+        </div>
       </div>
       <div className="avatar" data-sal="slide-up" data-sal-duration="1000">
         <Img fluid={props.data.imageOne.childImageSharp.fluid}
@@ -114,6 +122,24 @@ export const pageQuery = graphql`
       ...firstSiteImages
     }
     gameDev: file(relativePath: { eq: "images/game.png" }) {
+      ...firstSiteImages
+    }
+    dribbble: file(relativePath: { eq: "images/socials/dribbble.png" }) {
+      ...firstSiteImages
+    }
+    facebook: file(relativePath: { eq: "images/socials/facebook.png" }) {
+      ...firstSiteImages
+    }
+    github: file(relativePath: { eq: "images/socials/github.png" }) {
+      ...firstSiteImages
+    }
+    instagram: file(relativePath: { eq: "images/socials/instagram.png" }) {
+      ...firstSiteImages
+    }
+    linkedin: file(relativePath: { eq: "images/socials/linkedin.png" }) {
+      ...firstSiteImages
+    }
+    twitter: file(relativePath: { eq: "images/socials/twitter.png" }) {
       ...firstSiteImages
     }
   }
