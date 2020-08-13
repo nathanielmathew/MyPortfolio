@@ -10,16 +10,16 @@ const IndexPage = props => (
     <SEO title="Home" />
     <div className="intro-container frame dark">
       <div className="intro">
-        <h1 data-sal="fade" data-sal-duration="500">Hello there!</h1>
-        <p data-sal="fade" data-sal-duration="1000">I'm <strong>Nathaniel Ryan M</strong>,</p>
-        <p>a 3rd Year Computer Science and Engineering Student at Sahyadri College of Engineering &amp; Management</p>
+        <p data-sal="fade" data-sal-duration="500">Hello, I'm</p>
+        <h1 data-sal="fade" data-sal-duration="1000"><strong>Nathaniel Ryan Mathew</strong></h1>
+        <p>Front-End Web Developer, Graphic Designer, and Final Year Computer Science &amp; Engineering Student</p>
         <div className="socials-container">
-        <a href="https://github.com/nathanielmathew/" target="_blank"><Img fluid={props.data.github.childImageSharp.fluid} className="socials" alt="github" title="github"/></a>
-        <a href="https://www.linkedin.com/in/nathanielmathew/" target="_blank"><Img fluid={props.data.linkedin.childImageSharp.fluid} className="socials" alt="linkedin" title="linkedin"/></a>
-        <a href="https://www.facebook.com/nathanielryanmathew" target="_blank"><Img fluid={props.data.facebook.childImageSharp.fluid} className="socials" alt="facebook" title="facebook"/></a>
-        <a href="https://www.instagram.com/nathanxmathew/" target="_blank"><Img fluid={props.data.instagram.childImageSharp.fluid} className="socials" alt="instagram" title="instagram"/></a>
-        <a href="https://twitter.com/nathanxmathew" target="_blank"><Img fluid={props.data.twitter.childImageSharp.fluid} className="socials" alt="twitter" title="twitter"/></a>
-        <a href="https://dribbble.com/nathanielmathew" target="_blank"><Img fluid={props.data.dribbble.childImageSharp.fluid} className="socials" alt="dribbble" title="dribbble"/></a>
+        <a href="https://github.com/nathanielmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.github.childImageSharp.fluid} className="socials" alt="github" title="github"/></a>
+        <a href="https://www.linkedin.com/in/nathanielmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.linkedin.childImageSharp.fluid} className="socials" alt="linkedin" title="linkedin"/></a>
+        <a href="https://www.facebook.com/nathanielryanmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.facebook.childImageSharp.fluid} className="socials" alt="facebook" title="facebook"/></a>
+        <a href="https://www.instagram.com/nathanxmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.instagram.childImageSharp.fluid} className="socials" alt="instagram" title="instagram"/></a>
+        <a href="https://twitter.com/nathanxmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.twitter.childImageSharp.fluid} className="socials" alt="twitter" title="twitter"/></a>
+        <a href="https://dribbble.com/nathanielmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.dribbble.childImageSharp.fluid} className="socials" alt="dribbble" title="dribbble"/></a>
         </div>
       </div>
       <div className="avatar" data-sal="slide-up" data-sal-duration="1000">
@@ -71,8 +71,8 @@ const IndexPage = props => (
       <div class="slide"><img src="https://github.com/so-sc/open-design/blob/master/SAHYADRI/SAHYADRI-LOGO-01.png?raw=true" alt="SCEM"/></div>
       <div class="slide"><img src="https://raw.githubusercontent.com/so-sc/open-design/master/SOSC/Logos/logo_x_text.png" alt='SOSC'/></div>
       <div class="slide"><img style={{'margin-top':'50px'}} src="https://raw.githubusercontent.com/so-sc/open-design/master/mozilla/moz-logo-1color-white-rgb.png" alt='Mozilla'/></div>
-      <div class="slide"><img style={{'margin-top':'20px'}} src="https://github.com/so-sc/open-design/blob/master/Microsoft%20Student%20Partners/MSP%20Logos/Light%20Blue/RGB/Stacked/MSP_visual%20ID_RGB_stacked_light%20blue.png?raw=true" alt='Microsoft Student Partners' /></div>
-      <div class="slide"><img src="https://www.gatsbyjs.org/Gatsby-Monogram.svg" alt='Gatsby'/></div>
+      <div class="slide"><img style={{'margin-top':'20px'}} src="https://raw.githubusercontent.com/so-sc/open-design/master/Microsoft%20Learn%20Student%20Ambassadors/Program%20Badge(Logo)/MSLearn_SA_badge_generic_rgb_300ppi.png" alt='Microsoft Learn Student Ambassadors' /></div>
+      <div class="slide"><img src="https://avatars3.githubusercontent.com/u/12551863?s=400&amp;v=4" alt='Gatsby'/></div>
       <div class="slide"><img src="https://www.xelpmoc.in/images/portfolio/woovly/seo.jpg" alt='Woovly' /></div>
    </section>
 </div>
