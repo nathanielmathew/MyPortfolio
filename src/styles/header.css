@@ -28,10 +28,11 @@
     color: #20A4F3; 
 }
 .links{
+    font-size: 0.65em;
     margin: auto 0px;
 }
 .links a{
-    padding: 10px;
+    padding: 0px 4vw;
     font-size: 0.6em;
     text-decoration: none;
     color: #F6F7F8; 
