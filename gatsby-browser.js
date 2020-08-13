@@ -7,7 +7,7 @@ import 'slick-carousel';
  */
 
 // You can delete this file if you're not using it
-export const onInitialClientRender=()=>{
+export const onRouteUpdate=()=>{
         $(document).ready(function(){
             $('.customer-logos').slick({
                 slidesToShow: 3,
