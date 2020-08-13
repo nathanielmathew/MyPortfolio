@@ -20,6 +20,12 @@ const Achievements = props => (
       </div>
       <div className="achievement-card-container-bg" data-sal="slide-up" data-sal-duration="1000">
         <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
+          <h2>Microsoft Learn Student Ambassador</h2>
+          <p>Formerly known as the Microsoft Student Partner program, Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills fot the future.</p>
+        </div>
+      </div>
+      <div className="achievement-card-container-bg" data-sal="slide-up" data-sal-duration="1000">
+        <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
           <h2>Selected as Microsoft Student Partner</h2>
           <p>Selected by Microsoft as a part of the Microsoft Student Partner (MSP) program which provides those selected with access to exclusive tools, to skill up with Microsoft Learn and other resources. Microsoft Student Partners epitomize Microsoft’s mission to empower every person and organization on the planet to achieve more—they are on-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers.  </p>
         </div>
