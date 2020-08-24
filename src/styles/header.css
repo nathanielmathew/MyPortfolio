@@ -46,11 +46,15 @@
 @media all and (orientation: portrait) {
     .links{
         position: absolute;
-        visibility: hidden;
+        display: none;
     }
     .title{
         font-size: 8vw;
         line-height: auto;
+        margin: auto;
     }
-    
+    .header-content{
+        display: flex;
+        flex-direction: column;
+    }
 }
