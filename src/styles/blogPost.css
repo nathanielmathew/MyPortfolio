@@ -1,0 +1,32 @@
+.blog-post-container{
+    width: 90%;
+    margin: auto;
+    align-content: center;
+}
+.blog-title{
+    padding-top: 5rem;
+}
+.coverimg{
+    margin-bottom: 3rem;
+}
+.blog-post-content{
+    padding-bottom: 3em;
+}
+.blog-post-content center{
+    margin: 1rem 0em;
+    font-size: 0.8rem;
+}
+.blog-post-content h2{
+    margin-top: 2em;
+    line-height: normal;
+}
+.blog-post-content p img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+@media all and (orientation: landscape) {
+    .blog-post-container{
+        width: 60%;
+    }
+}

@@ -3,11 +3,12 @@
     width: 20rem;
     padding: 10px;
     border-radius: 15px;
-    background: #FF3366;
     transition: 0.5s;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3), -1px -1px 7px -3px rgba(255, 255, 255, 0.3);
+    border-radius: 13px;
 }
 .project-card-content:hover{
-    background: #20A4F3;
+    background-color: #FF3366;
 }
 .project-name{
     margin-top: 10px;
