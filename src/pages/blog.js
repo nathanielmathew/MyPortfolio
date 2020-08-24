@@ -1,6 +1,6 @@
 import React from 'react'
 import BlogCard from '../components/blogCard'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 import "../styles/blog.css"
