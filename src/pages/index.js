@@ -80,7 +80,7 @@ const IndexPage = props => (
     <div className="contact-container frame dark">
       <div className="contact">
         <h1 data-sal="fade" data-sal-duration="500">Get in Touch!</h1>
-        <p data-sal="fade" data-sal-duration="1000">Be sure to contact me for exciting Collaboration opportunities and more information:</p>
+        <p data-sal="fade" data-sal-duration="1000">Feel free to contact me to collaborate, or for more information:</p>
         <p data-sal="fade" data-sal-duration="1000">
         Drop me an e-mail at<br /> <a className="nxm" href="mailto:nathanielmat2@gmail.com"><b className="nxm">nathanielmat2@gmail.com</b></a><br />
         Or give me a call/text at<br /> <a href="tel:+91 8088734430"><b>+91 8088734430</b></a>
