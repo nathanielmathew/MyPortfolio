@@ -13,6 +13,7 @@ const Header = ({ siteTitle }) => (
     <Link to="/" className="footer-title">Nathaniel Ryan Mathew</Link>
     
     <div className="footer-links">
+    <a href="https://www.linkedin.com/in/nathanielmathew">Linkedin</a>
     <a href="https://github.com/nathanielmathew">GitHub</a>
     <a href="https://twitter.com/nathanxmathew">Twitter</a>
     <a href="https://instagram.com/nathanxmathew">Instagram</a>
@@ -20,10 +21,11 @@ const Header = ({ siteTitle }) => (
     </div>
 
     <div className="footer-links">
-    <a href="mailto:nathanielmat2@gmail.com">E-mail</a>
-    <a href="tel:+91 8088734430">Phone</a>
+    <Link to="/blog">Blog</Link>
+    <Link to="/projects">Projects</Link>
+    <Link to="/achievements">Achievements</Link>
+    <a href="https://studentambassadors.microsoft.com/en-US/profile/4094">MLSA Profile</a>
     <a href="https://dribbble.com/nathanielmathew">Dribbble</a>
-    <a href="https://www.linkedin.com/in/nathanielmathew">Linkedin</a>
     </div>
 
 
