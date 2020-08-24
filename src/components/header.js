@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
         <div className="links">
           <Link to="/achievements/">Achievements</Link>
           <Link to="/projects/">Projects</Link>
+          <Link to="/blog/">Blog</Link>
         </div>
       </h1>
     </div>
