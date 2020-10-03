@@ -56,9 +56,9 @@ const IndexPage = props => (
         </div>
 
         <div className="interest-card">
-          <Img className="icon" fluid={props.data.gameDev.childImageSharp.fluid}
+          <Img className="icon" fluid={props.data.cloud.childImageSharp.fluid}
           />  
-          <p>Game Development</p>
+          <p>Cloud Computing</p>
         </div>
       </div>
     </div>
@@ -121,7 +121,7 @@ export const pageQuery = graphql`
     design: file(relativePath: { eq: "images/design.png" }) {
       ...firstSiteImages
     }
-    gameDev: file(relativePath: { eq: "images/game.png" }) {
+    cloud: file(relativePath: { eq: "images/cloud.png" }) {
       ...firstSiteImages
     }
     dribbble: file(relativePath: { eq: "images/socials/dribbble.png" }) {
