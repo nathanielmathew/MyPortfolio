@@ -4,7 +4,7 @@
 }
 .projects-title-container{
     width: 90%;
-    padding: 50px 20px;
+    padding: 20px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -35,5 +35,11 @@
 @media all and (orientation: portrait) {
     .projects-title-container{
         justify-content: space-around;
+    }
+    .subtitle{
+        margin-top: 5em;
+    }   
+    .project-img{
+        min-width: 250px;
     }
 }

@@ -19,7 +19,7 @@ const Achievements = props => (
           </div>
         </div>
       </div>
-      <div className="achievement-card-container-bg" data-sal="slide-up" data-sal-duration="1000">
+      <div className="achievement-card-container-bg dark" data-sal="slide-up" data-sal-duration="1000">
         <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
           <h2>Microsoft Learn Student Ambassador</h2>
           <p>Formerly known as the Microsoft Student Partner program, Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills fot the future.</p>
@@ -34,7 +34,7 @@ const Achievements = props => (
       <div className="achievement-card-container-bg dark" data-sal="slide-up" data-sal-duration="1000">
         <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
         <h2>Grand Finalist at Smart India Hackathon 2019</h2>
-        <p>I was selected for the Grand Final of "The world's largest Hackathon", The Smart India Hackathon, held at Lovely professional university, Punjab - in 2019</p>
+        <p>Was selected for the Grand Final of The Smart India Hackathon dubbed as "The world's largest Hackathon", held at Lovely professional university, Punjab - in 2019</p>
         </div>
       </div>
       <div className="achievement-card-container-bg" data-sal="fade" data-sal-duration="1000">
