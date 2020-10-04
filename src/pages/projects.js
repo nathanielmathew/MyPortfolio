@@ -22,7 +22,8 @@ const Achievements = props => (
         <div className="project-card-container">
           <ProjectCard pname="Portfolio WebPage" pinfo="A Personal Portfolio web page to display my Information, Achievements and Projects" plink="/"/>
           <ProjectCard pname="VTU Study Material Website" pinfo="MyVTU.me is a website for all your VTU related needs; Find Relevant VTU Notes and Question Papers with ease!" plink="https://myvtu.me"/>
-          <ProjectCard pname="Bulk Mailer" pinfo="A web application to send mass E-mails and mass SMS's on a large scale" plink="https://github.com/sih-sosc"/>
+          <ProjectCard pname="Browser Extension for The Visually Impaired" pinfo="A Chrome Browser Extension to dictate selected text on a web page whenever the hotkey is clicked." plink="https://github.com/nathanielmathew/Text2Speech"/>
+          <ProjectCard pname="Bulk Mailer" pinfo="A web application to send mass E-mails and mass Messages at a large scale, in Institutions" plink="https://github.com/sih-sosc"/>
           <ProjectCard pname="Weather API page" pinfo="A web application to display the weather conditions of any location" plink="https://nathanielmathew.github.io/weather-api/"/>
           <ProjectCard pname="Mozilla Sahyadri Website" pinfo="A website for the official Mozilla Campus Club of Sahyadri" plink="https://mozilla-sahyadri.netlify.com/"/>
         </div>
