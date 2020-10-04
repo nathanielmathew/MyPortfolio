@@ -6,7 +6,7 @@
 }
 .achievement-title-container{
     width: 90%;
-    padding: 50px 20px;
+    padding: 20px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -47,5 +47,11 @@
     }
     .achievement-card{
         text-align: center;
+    }
+    .subtitle{
+        margin-top: 5em;
+    }   
+    .achievement-img{
+        min-width: 250px;
     }
 }
