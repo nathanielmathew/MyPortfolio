@@ -2,7 +2,7 @@
     width: auto;
     margin: auto;
     animation: 
-        fadein 2s;
+        fadein 1s;
 }
 .achievement-title-container{
     width: 90%;
@@ -12,7 +12,7 @@
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
-    animation: fadein 2s;
+    animation: fadein 1.5s;
 }
 .subtitle{
     margin: auto 0;
