@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
     <footer>
-    <div className="copyright">
+    <div className="copyright light">
     © {new Date().getFullYear()}, 
     {` `}
     <a href="https://github.com/nathanielmathew">Nathaniel Ryan M</a>
     </div>
-    <div className="footer-link-container dark">
+    <div className="footer-link-container">
     <Link to="/" className="footer-title">Nathaniel Ryan Mathew</Link>
     
     <div className="footer-links">

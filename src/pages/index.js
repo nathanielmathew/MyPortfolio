@@ -8,7 +8,7 @@ import '../styles/slider.css'
 const IndexPage = props => (
   <Layout>
     <SEO title="Home" />
-    <div className="intro-container frame dark">
+    <div className="intro-container frame">
       <div className="intro">
         <p data-sal="fade" data-sal-duration="500">Hello, I'm</p>
         <h1 data-sal="fade" data-sal-duration="1000"><strong>Nathaniel Ryan Mathew</strong></h1>
@@ -27,7 +27,7 @@ const IndexPage = props => (
         />
       </div>
     </div>
-    <div className="about-container frame">
+    <div className="about-container frame light">
       <div className="about">
         <h1 data-sal="fade" data-sal-duration="500">About Me</h1>
         <p data-sal="fade" data-sal-duration="1000">I'm an Engineering Student Developer from Mangalore, with a passion for <b>Front-End Web Development</b>, <b>UI/UX Design</b> and <b>Graphic Design</b>.<br />
@@ -39,7 +39,7 @@ const IndexPage = props => (
       </div>
     </div>
 
-    <div className="interests-container frame dark">
+    <div className="interests-container frame">
         <h1 align="center" data-sal="fade" data-sal-duration="500">Areas of Interest</h1>
         <div className="interests" data-sal="slide-up" data-sal-duration="1000">
 
@@ -65,19 +65,19 @@ const IndexPage = props => (
 
 
 
-<div class="organizations-container frame">
+<div className="organizations-container frame light">
   <h1 align="center" data-sal="fade" data-sal-duration="500">Associated Organizations</h1>
-   <section class="customer-logos slider organizations" data-sal="slide-up" data-sal-duration="1000">
-      <div class="slide"><img src="https://github.com/so-sc/open-design/blob/master/SAHYADRI/SAHYADRI-LOGO-01.png?raw=true" alt="SCEM"/></div>
-      <div class="slide"><img src="https://raw.githubusercontent.com/so-sc/open-design/master/SOSC/Logos/logo_x_text.png" alt='SOSC'/></div>
-      <div class="slide"><img style={{'margin-top':'50px'}} src="https://raw.githubusercontent.com/so-sc/open-design/master/mozilla/moz-logo-1color-white-rgb.png" alt='Mozilla'/></div>
-      <div class="slide"><img style={{'margin-top':'20px'}} src="https://raw.githubusercontent.com/so-sc/open-design/master/Microsoft%20Learn%20Student%20Ambassadors/Program%20Badge(Logo)/MSLearn_SA_badge_generic_rgb_300ppi.png" alt='Microsoft Learn Student Ambassadors' /></div>
-      <div class="slide"><img src="https://avatars3.githubusercontent.com/u/12551863?s=400&amp;v=4" alt='Gatsby'/></div>
-      <div class="slide"><img src="https://www.xelpmoc.in/images/portfolio/woovly/seo.jpg" alt='Woovly' /></div>
+   <section className="customer-logos slider organizations" data-sal="slide-up" data-sal-duration="1000">
+      <div className="slide"><img src="https://github.com/so-sc/open-design/blob/master/SAHYADRI/SAHYADRI-LOGO-01.png?raw=true" alt="SCEM"/></div>
+      <div className="slide"><img src="https://raw.githubusercontent.com/so-sc/open-design/master/SOSC/Logos/logo_x_text.png" alt='SOSC'/></div>
+      <div className="slide"><img style={{marginTop:'50px'}} src="https://raw.githubusercontent.com/so-sc/open-design/master/mozilla/moz-logo-1color-white-rgb.png" alt='Mozilla'/></div>
+      <div className="slide"><img style={{marginTop:'20px'}} src="https://raw.githubusercontent.com/so-sc/open-design/master/Microsoft%20Learn%20Student%20Ambassadors/Program%20Badge(Logo)/MSLearn_SA_badge_generic_rgb_300ppi.png" alt='Microsoft Learn Student Ambassadors' /></div>
+      <div className="slide"><img src="https://avatars3.githubusercontent.com/u/12551863?s=400&amp;v=4" alt='Gatsby'/></div>
+      <div className="slide"><img src="https://www.xelpmoc.in/images/portfolio/woovly/seo.jpg" alt='Woovly' /></div>
    </section>
 </div>
 
-    <div className="contact-container frame dark">
+    <div className="contact-container frame">
       <div className="contact">
         <h1 data-sal="fade" data-sal-duration="500">Get in Touch!</h1>
         <p data-sal="fade" data-sal-duration="1000">Feel free to contact me to collaborate, or for more information:</p>

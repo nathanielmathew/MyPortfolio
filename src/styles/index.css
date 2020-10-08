@@ -153,6 +153,12 @@ h1{
     .intro-container, .about-container, .contact-container{
         justify-content: space-between;
     }
+    .intro-container{
+        padding-top: 0px;
+    }
+    .contact-container{
+        padding-bottom: 0px;
+    }
     .avatar{
         min-width: 90vw;
         min-height: 90vw;

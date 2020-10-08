@@ -30,5 +30,15 @@ export const onRouteUpdate=()=>{
                 }]
             });
           });
+          let hamburger = document.querySelector(".hamburger");
+        // On click
+        hamburger.addEventListener("click", function() {
+          // Toggle class "is-active"
+          hamburger.classList.toggle("is-active");
+          // Do something else, like open/close menu
+          document.querySelector("#mobile-title").classList.toggle("hidden");
+          document.querySelector(".mobile-menu").classList.toggle("activated");
+
+        });
           
 }

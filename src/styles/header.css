@@ -42,19 +42,67 @@
 .links a:hover{
     color: #2EC4B6;
 }
-
+#mobile-title, .mobile-menu{
+    display: none;
+    transition: 0.3s;
+}
+.mobile-menu{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    position: absolute;
+    background-color: #04131f;
+    z-index: 99;
+    -webkit-transform:translate3d(0,0,0);
+            transform:translate3d(0,0,0);
+}
+#mobile-menu-title{
+    margin: 30px auto;
+    font-size: 2em;
+    animation: fadein 0.5s;
+    transition: 0.2s; 
+}
+.mobile-link{
+    margin: 3vh auto;
+    text-decoration: none;
+    color: #F6F7F8;
+    animation: fadein 1s;
+    transition: 0.25s; 
+}
+.hidden{
+    opacity: 0;
+}
 @media all and (orientation: portrait) {
-    .links{
+    
+    .nav-link{
         position: absolute;
         display: none;
     }
     .title{
         font-size: 8vw;
         line-height: auto;
-        margin: auto;
+    }
+    #mobile-title{
+        font-size: 8vw;
+        display: block;
+    }
+    #desktop-title{
+        display: none;
     }
     .header-content{
         display: flex;
+        flex-direction: row;
+    }
+    .hamburger{
+        padding: 0px!important;
+    }
+    .activated{
+        display: flex;
         flex-direction: column;
+    }    
+}
+@media all and  ( orientation: landscape){
+    .hamburger{
+        display: none!important;
     }
 }
