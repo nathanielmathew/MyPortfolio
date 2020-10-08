@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100&display=swap');
 html {
-  background-color: #011627;
+  background-color: #04131f;
   font-family: 'Raleway',Helvetica, Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -15,8 +15,8 @@ body {
   padding: 0rem;
   padding-top: 0;
 }
-.dark{
-  background-color: #04131f;
+.light{
+  background-color: #011627;
 }
 article,
 aside,
