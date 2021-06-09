@@ -2,8 +2,8 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://nathanielmathew.me">
-    <img alt="Logo" src="https://nathanielmathew.me/favicon-32x32.png?v=c5176d72afdba191997635c46a1f4a6e" height="40" />
+  <a href="https://nathanielmathew.tech">
+    <img alt="Logo" src="https://nathanielmathew.tech/favicon-32x32.png?v=c5176d72afdba191997635c46a1f4a6e" height="40" />
   </a>
   <h1 align="center">
   My Portfolio
