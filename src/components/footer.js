@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
     <Link to="/blog">Blog</Link>
     <Link to="/projects">Projects</Link>
     <Link to="/achievements">Achievements</Link>
-    <a href="https://studentambassadors.microsoft.com/en-US/profile/4094">MLSA Profile</a>
+    <a href="https://trailblazer.me/nathanielmathew">Trailblazer Profile</a>
     <a href="https://dribbble.com/nathanielmathew">Dribbble</a>
     </div>
 
