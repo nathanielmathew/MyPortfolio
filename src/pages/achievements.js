@@ -36,7 +36,19 @@ const Achievements = props => (
         <h2>Salesforce Certified Administrator</h2>
         <p>The Salesforce Administrator credential is designed for those who have experience with Salesforce and continuously look for ways to assist their companies in getting even more from additional features and capabilities.</p>
         </div>
-      </div>  
+      </div>
+      <div className="achievement-card-container-bg light" data-sal="slide-up" data-sal-duration="1000">
+        <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
+          <h2>Google Cloud Fundamentals: Core Infrastructure</h2>
+          <p>This course introduces you to important concepts and terminology for working with Google Cloud Platform (GCP). You learn about, and compare, many of the computing and storage services available in Google Cloud Platform, including Google App Engine, Google Compute Engine, Google Kubernetes Engine, Google Cloud Storage, Google Cloud SQL, and BigQuery. You learn about important resource and policy management tools, such as the Google Cloud Resource Manager hierarchy and Google Cloud Identity and Access Management.</p>
+        </div>
+      </div>
+      <div className="achievement-card-container-bg light" data-sal="slide-up" data-sal-duration="1000">
+        <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
+          <h2>Neural Networks and Deep Learning by DeepLearning.AI</h2>
+          <p>The Deep Learning Specialization is our foundational program that will help you understand the capabilities, challenges, and consequences of deep learning and prepare you to participate in the development of leading-edge AI technology. It provides a pathway for you to gain the knowledge and skills to apply machine learning to your work, level up your technical career, and take the definitive step in the world of AI.</p>
+        </div>
+      </div>
       <div className="achievement-card-container-bg light" data-sal="slide-up" data-sal-duration="1000">
         <div className="achievement-card" data-sal="slide-up" data-sal-duration="1000">
           <h2>Former Microsoft Student Partner</h2>
