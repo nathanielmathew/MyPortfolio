@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         >
           Nathaniel Ryan M</Link>
         <div className="links">
-          <Link className= "nav-link" to="/achievements/">Achievements</Link>
+          <Link className= "nav-link" to="/achievements/">Certifications</Link>
           <Link className= "nav-link" to="/projects/">Projects</Link>
           <Link className= "nav-link" to="/blog/">Blog</Link>
           {/* <a id="hamburger" href="#">H</a> */}
