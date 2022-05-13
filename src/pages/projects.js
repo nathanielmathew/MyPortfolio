@@ -20,6 +20,8 @@ const Achievements = props => (
         </div>
       </div>
         <div className="project-card-container">
+          <ProjectCard pname="Cogeco connexion FSM Software" pinfo="Cogeco Inc. is a Canadian telecommunications and media company for which Diabsolut Inc developed a field service solution using Salesforce Field Service" plink=""/>
+          <ProjectCard pname="Eurotech Safety Inventory Management Software" pinfo="Eurotech Safety Inc. is a company based in Toronto and its surrounding areas that provides Fire, Life Safety, and Security services to the residential and commercial sector in Ontario. The Inventory Management solution for this project was Implemented using Salesforce." plink=""/>
           <ProjectCard pname="Portfolio WebPage" pinfo="A Personal Portfolio web page to display my Information, Achievements and Projects" plink="/"/>
           <ProjectCard pname="VTU Study Material Website" pinfo="MyVTU.me is a website for all your VTU related needs; Find Relevant VTU Notes and Question Papers with ease!" plink="https://myvtu.me"/>
           <ProjectCard pname="Browser Extension for The Visually Impaired" pinfo="A Chrome Browser Extension to dictate selected text on a web page whenever the hotkey is clicked" plink="https://github.com/nathanielmathew/Text2Speech"/>
