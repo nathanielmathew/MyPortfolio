@@ -30,9 +30,8 @@ const IndexPage = props => (
     <div className="about-container frame light">
       <div className="about">
         <h1 data-sal="fade" data-sal-duration="500">About Me</h1>
-        <p data-sal="fade" data-sal-duration="1000">I currently work at Diabsolut on Cloud Technologies like Salesforce, Field Service Management using SFS, and Click FSE.<br /><br />
- I am a constant learner who loves learning new things, currently officially certified as a Salesforce Administrator and as an Azure Certified Professional along with various other technical courses.<br /><br />
- I also enjoy working with various other Cloud Technologies, Building Websites and Developing Software, Designing, Trading, and playing the Guitar in my free time.</p>
+        <p data-sal="fade" data-sal-duration="1000">Nathaniel works with the development of Software and on Cloud Technologies. He is 3x certified in Salesforce, as an Administrator, Field Service Consultant, and Service Cloud Consultant. <br />
+          He loves learning new things and expanding the horizons of his knowledge by working with a plethora of other Cloud Technologies, building websites, developing software, designing, trading, and playing the guitar as a hobby.</p>
       </div>
       <div className="about-img" data-sal="slide-up" data-sal-duration="1000">
       <Img fluid={props.data.about.childImageSharp.fluid}
