@@ -17,7 +17,7 @@ const IndexPage = props => (
         <a href="https://github.com/nathanielmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.github.childImageSharp.fluid} className="socials" alt="github" title="github"/></a>
         <a href="https://www.linkedin.com/in/nathanielmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.linkedin.childImageSharp.fluid} className="socials" alt="linkedin" title="linkedin"/></a>
         <a href="https://www.facebook.com/nathanielryanmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.facebook.childImageSharp.fluid} className="socials" alt="facebook" title="facebook"/></a>
-        <a href="https://www.instagram.com/nathanxmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.instagram.childImageSharp.fluid} className="socials" alt="instagram" title="instagram"/></a>
+        <!-- <a href="https://www.instagram.com/nathanxmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.instagram.childImageSharp.fluid} className="socials" alt="instagram" title="instagram"/></a> -->
         <a href="https://twitter.com/nathanxmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.twitter.childImageSharp.fluid} className="socials" alt="twitter" title="twitter"/></a>
         <a href="https://dribbble.com/nathanielmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.dribbble.childImageSharp.fluid} className="socials" alt="dribbble" title="dribbble"/></a>
         </div>
