@@ -30,6 +30,7 @@ const IndexPage = props => (
       <div className="about">
         <h1 data-sal="fade" data-sal-duration="500">About Me</h1>
         <p data-sal="fade" data-sal-duration="1000">Nathaniel works with the development of Software and on Cloud Technologies. He is 3x certified in Salesforce, as an Administrator, Field Service Consultant, and Service Cloud Consultant. <br />
+          <br />
           He loves learning new things and expanding the horizons of his knowledge by working with a plethora of other Cloud Technologies, building websites, developing software, designing, trading, and playing the guitar as a hobby.</p>
       </div>
       <div className="about-img" data-sal="slide-up" data-sal-duration="1000">
