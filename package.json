@@ -19,7 +19,7 @@
     "gatsby-plugin-sharp": "^2.6.28",
     "gatsby-remark-images": "^3.3.26",
     "gatsby-source-filesystem": "^2.3.25",
-    "gatsby-transformer-remark": "^2.8.29",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.5.13",
     "jquery": "^3.5.1",
     "prop-types": "^15.7.2",
