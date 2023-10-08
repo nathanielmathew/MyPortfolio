@@ -34,7 +34,6 @@ const IndexPage = props => (
         I love learning and I’m currently pursuing a Post Graduate degree in Cloud Architecture and Administration. I also have a Bachelor’s degree in Computer Science and hold certifications in Salesforce (4x) and Azure.
       <br />
       I enjoy working with various other Cloud Technologies, Building Websites and Developing Software, Designing, Trading, and playing the Guitar in my free time.
-      <br />
       <div className="about-img" data-sal="slide-up" data-sal-duration="1000">
       <Img fluid={props.data.about.childImageSharp.fluid}
       />
