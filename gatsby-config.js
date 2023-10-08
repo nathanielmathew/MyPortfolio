@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nathaniel Ryan Mathew`,
-    description: `Personal Portfolio Web-page of Nathaniel Ryan Mathew, an Engineering Student Developer from Mangalore, with a passion for Front-End Web Development, UI/UX Design and Graphic Design; A Music & Art enthusiast, and a Guitarist by hobby`,
+    description: `Personal Portfolio Web-page of Nathaniel Ryan Mathew`,
     author: `@nathanielmathew`,
   },
   plugins: [
@@ -50,12 +50,6 @@ module.exports = {
       options: {
         id: 1922635,
         sv: 6
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
       },
     },
     `gatsby-transformer-sharp`,
