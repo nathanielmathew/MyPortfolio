@@ -12,10 +12,10 @@ const IndexPage = props => (
       <div className="intro">
         <p data-sal="fade" data-sal-duration="500">Hello, I'm</p>
         <h1 data-sal="fade" data-sal-duration="1000"><strong>Nathaniel Ryan Mathew</strong></h1>
-        <p>A Salesforce Certified Administrator, Software Developer, and an overall Tech Geek!</p>
+        <p>A 4x Certified Salesforce Consultant, Software Developer and Tech Geek  </p>
         <div className="socials-container">
-        <a href="https://github.com/nathanielmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.github.childImageSharp.fluid} className="socials" alt="github" title="github"/></a>
         <a href="https://www.linkedin.com/in/nathanielmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.linkedin.childImageSharp.fluid} className="socials" alt="linkedin" title="linkedin"/></a>
+        <a href="https://github.com/nathanielmathew/" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.github.childImageSharp.fluid} className="socials" alt="github" title="github"/></a>
         <a href="https://www.facebook.com/nathanielryanmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.facebook.childImageSharp.fluid} className="socials" alt="facebook" title="facebook"/></a>
         <a href="https://twitter.com/nathanxmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.twitter.childImageSharp.fluid} className="socials" alt="twitter" title="twitter"/></a>
         <a href="https://dribbble.com/nathanielmathew" target="_blank" rel="noopener noreferrer"><Img fluid={props.data.dribbble.childImageSharp.fluid} className="socials" alt="dribbble" title="dribbble"/></a>
@@ -29,10 +29,12 @@ const IndexPage = props => (
     <div className="about-container frame light">
       <div className="about">
         <h1 data-sal="fade" data-sal-duration="500">About Me</h1>
-        <p data-sal="fade" data-sal-duration="1000">I work with the development of Software and Cloud Technologies. I am 4x certified in Salesforce technologies including SF Administrator, Service Cloud Consultant, Field Service Consultant and Advanced Field Service Accredited Professional. <br />
-          <br />
-          I love learning new things and expanding the horizons of my knowledge by working with a plethora of other Technologies, building websites, developing software, designing, and trading. I also like playing the guitar in my free time.</p>
-      </div>
+        <p data-sal="fade" data-sal-duration="1000">I am based in Toronto and work as a Salesforce Consultant on SaaS Cloud Technologies like Salesforce Field Service Management, Tableau, Education Cloud and Certinia.
+        <br />
+        I love learning and I’m currently pursuing a Post Graduate degree in Cloud Architecture and Administration. I also have a Bachelor’s degree in Computer Science and hold certifications in Salesforce (4x) and Azure.
+      <br />
+      I enjoy working with various other Cloud Technologies, Building Websites and Developing Software, Designing, Trading, and playing the Guitar in my free time.
+      <br />
       <div className="about-img" data-sal="slide-up" data-sal-duration="1000">
       <Img fluid={props.data.about.childImageSharp.fluid}
       />
@@ -46,13 +48,13 @@ const IndexPage = props => (
         <div className="interest-card">
           <Img className="icon" fluid={props.data.webDev.childImageSharp.fluid}
           />  
-          <p>Software Development</p>
+          <p>Software Development/Integration</p>
         </div>
 
         <div className="interest-card">
           <Img className="icon" fluid={props.data.cloud.childImageSharp.fluid}
           />  
-          <p>Cloud Computing</p>
+          <p>Salesforce & Cloud Computing</p>
         </div>
 
         <div className="interest-card">
@@ -81,10 +83,10 @@ const IndexPage = props => (
     <div className="contact-container frame">
       <div className="contact">
         <h1 data-sal="fade" data-sal-duration="500">Get in Touch!</h1>
-        <p data-sal="fade" data-sal-duration="1000">Got a relevant opportunity for me? Please contact me to collaborate, or for more information!</p>
+        <p data-sal="fade" data-sal-duration="1000">Please feel free to contact me for more information!</p>
         <p data-sal="fade" data-sal-duration="1000">
         Drop me an e-mail at<br /> <a className="nxm" href="mailto:nathanielmat2@gmail.com"><b className="nxm">nathanielmat2@gmail.com</b></a><br />
-        Or give me a call/text at<br /> <a href="tel:+91 8088734430"><b>+91 8088734430</b></a>
+        Or give me a call/text at<br /> <a href="tel:+1 (437)-663-3443"><b>+1 (437)-663-3443</b></a>
         </p>
       </div>
       <div className="contact-img" data-sal="slide-up" data-sal-duration="1000">
