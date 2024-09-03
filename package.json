@@ -21,6 +21,7 @@
     "gatsby-source-filesystem": "^2.3.25",
     "gatsby-transformer-remark": "^5.1.1",
     "gatsby-transformer-sharp": "^2.5.13",
+    "graphql": "16.0.0",
     "jquery": "^3.5.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -28,9 +29,6 @@
     "react-helmet": "^5.2.1",
     "scrollmonitor-react": "^2.4.1",
     "slick-carousel": "^1.8.1"
-  },
-  "resolutions": {
-    "graphql": "16.0.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
