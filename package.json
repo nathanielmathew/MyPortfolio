@@ -29,6 +29,9 @@
     "scrollmonitor-react": "^2.4.1",
     "slick-carousel": "^1.8.1"
   },
+  "resolutions": {
+    "graphql": "16.0.0"
+  }
   "devDependencies": {
     "prettier": "^1.19.1"
   },
