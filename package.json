@@ -20,7 +20,7 @@
     "gatsby-remark-images": "^6.1.1",
     "gatsby-source-filesystem": "^2.3.25",
     "gatsby-transformer-remark": "^5.1.1",
-    "gatsby-transformer-sharp": "^5.1.1",
+    "gatsby-transformer-sharp": "^4.0.0",
     "graphql": "16.0.0",
     "jquery": "^3.5.1",
     "prop-types": "^15.7.2",
